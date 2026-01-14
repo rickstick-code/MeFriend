@@ -7,6 +7,7 @@ public class InventorySlot
     public string ItemId = "";
     public int Amount = 0;
     public bool IsInUse = false;
+    public long WillBeDelieveredAtUtcSeconds = 0;
 }
 
 [Serializable]
