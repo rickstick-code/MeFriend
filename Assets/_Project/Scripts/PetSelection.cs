@@ -23,6 +23,16 @@ public class PetSelection : MonoBehaviour
         var petSelectionConfirmationScript = confirmationWindow
             ?.GetComponent<PetSelectionConfirmation>();
 
+        InitiliazePreviewTexture(woodenBoard?.transform.Find("PreviewTexture"), PetType);
+
         petSelectionConfirmationScript.PetType = PetType;
+    }
+
+    private void InitiliazePreviewTexture(Transform previewTexture, PetType petType)
+    {
+        foreach (Transform child in previewTexture)
+        {
+            child.gameObject.SetActive(child.name == petType.ToString());
+        }
     }
 }
