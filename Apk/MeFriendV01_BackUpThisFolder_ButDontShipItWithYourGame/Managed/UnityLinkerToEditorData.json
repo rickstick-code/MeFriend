@@ -11,6 +11,7 @@
           {
             "name": "AnimationClip",
             "scenes": [
+              "Assets/_Project/Scenes/MainRoom.unity",
               "Assets/_Project/Scenes/PetSelection.unity"
             ],
             "dependencyType": 0,
@@ -19,6 +20,7 @@
           {
             "name": "Animator",
             "scenes": [
+              "Assets/_Project/Scenes/MainRoom.unity",
               "Assets/_Project/Scenes/PetSelection.unity"
             ],
             "dependencyType": 0,
@@ -27,6 +29,7 @@
           {
             "name": "AnimatorController",
             "scenes": [
+              "Assets/_Project/Scenes/MainRoom.unity",
               "Assets/_Project/Scenes/PetSelection.unity"
             ],
             "dependencyType": 1,
@@ -306,6 +309,7 @@
             "name": "Material",
             "scenes": [
               "Assets/_Project/Scenes/Boot.unity",
+              "Assets/_Project/Scenes/MainRoom.unity",
               "Assets/_Project/Scenes/PetSelection.unity"
             ],
             "dependencyType": 0,
@@ -414,6 +418,7 @@
             "name": "RectTransform",
             "scenes": [
               "Assets/_Project/Scenes/Boot.unity",
+              "Assets/_Project/Scenes/MainRoom.unity",
               "Assets/_Project/Scenes/PetSelection.unity"
             ],
             "dependencyType": 0,
@@ -450,10 +455,8 @@
           },
           {
             "name": "Renderer",
-            "scenes": [
-              "Assets/_Project/Scenes/PetSelection.unity"
-            ],
-            "dependencyType": 0,
+            "scenes": [],
+            "dependencyType": 1,
             "icon": null
           },
           {
@@ -472,6 +475,7 @@
             "name": "Shader",
             "scenes": [
               "Assets/_Project/Scenes/Boot.unity",
+              "Assets/_Project/Scenes/MainRoom.unity",
               "Assets/_Project/Scenes/PetSelection.unity"
             ],
             "dependencyType": 0,
@@ -499,6 +503,7 @@
             "name": "Sprite",
             "scenes": [
               "Assets/_Project/Scenes/Boot.unity",
+              "Assets/_Project/Scenes/MainRoom.unity",
               "Assets/_Project/Scenes/PetSelection.unity"
             ],
             "dependencyType": 0,
@@ -513,6 +518,7 @@
           {
             "name": "SpriteRenderer",
             "scenes": [
+              "Assets/_Project/Scenes/MainRoom.unity",
               "Assets/_Project/Scenes/PetSelection.unity"
             ],
             "dependencyType": 0,
@@ -676,6 +682,12 @@
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.jsonserialize"
+          },
+          {
+            "name": "Required by ParticleSystem Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.particlesystem"
           },
           {
             "name": "Required by Physics Module",
@@ -1068,6 +1080,29 @@
         ]
       },
       {
+        "name": "ParticleSystem",
+        "dependencies": [
+          {
+            "name": "ParticleSystem",
+            "scenes": [
+              "Assets/_Project/Scenes/MainRoom.unity",
+              "Assets/_Project/Scenes/PetSelection.unity"
+            ],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "ParticleSystemRenderer",
+            "scenes": [
+              "Assets/_Project/Scenes/MainRoom.unity",
+              "Assets/_Project/Scenes/PetSelection.unity"
+            ],
+            "dependencyType": 0,
+            "icon": null
+          }
+        ]
+      },
+      {
         "name": "Physics",
         "dependencies": [
           {
@@ -1117,6 +1152,15 @@
       {
         "name": "Physics2D",
         "dependencies": [
+          {
+            "name": "CapsuleCollider2D",
+            "scenes": [
+              "Assets/_Project/Scenes/MainRoom.unity",
+              "Assets/_Project/Scenes/PetSelection.unity"
+            ],
+            "dependencyType": 0,
+            "icon": null
+          },
           {
             "name": "Collider2D",
             "scenes": [],
@@ -1302,6 +1346,12 @@
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.jsonserialize"
+          },
+          {
+            "name": "Required by ParticleSystem Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.particlesystem"
           },
           {
             "name": "Required by Physics Module",
@@ -1574,6 +1624,7 @@
             "name": "Font",
             "scenes": [
               "Assets/_Project/Scenes/Boot.unity",
+              "Assets/_Project/Scenes/MainRoom.unity",
               "Assets/_Project/Scenes/PetSelection.unity"
             ],
             "dependencyType": 0,
@@ -1641,6 +1692,7 @@
             "name": "Canvas",
             "scenes": [
               "Assets/_Project/Scenes/Boot.unity",
+              "Assets/_Project/Scenes/MainRoom.unity",
               "Assets/_Project/Scenes/PetSelection.unity"
             ],
             "dependencyType": 0,
@@ -1656,6 +1708,7 @@
             "name": "CanvasRenderer",
             "scenes": [
               "Assets/_Project/Scenes/Boot.unity",
+              "Assets/_Project/Scenes/MainRoom.unity",
               "Assets/_Project/Scenes/PetSelection.unity"
             ],
             "dependencyType": 0,

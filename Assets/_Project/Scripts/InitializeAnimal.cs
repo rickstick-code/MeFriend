@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class InitializeAnimal : MonoBehaviour
 {
-    void Awake()
+    void Start()
     {
         foreach (Transform child in transform)
         {

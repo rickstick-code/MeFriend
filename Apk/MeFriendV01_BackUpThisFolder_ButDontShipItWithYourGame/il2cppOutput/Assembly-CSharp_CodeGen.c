@@ -9,7 +9,10 @@
 
 extern void InventorySlot__ctor_m81F300A17B54F5AA603F9EE51527593B8925A81A (void);
 extern void GameState__ctor_m136973224640261C767FADCA144A37EEF91CB53C (void);
+extern void InitializeAnimal_Start_mC1438CD2F4DD3230A8DB3505A1FED6DE8AE5B411 (void);
+extern void InitializeAnimal__ctor_m52A87E7FAB3990D2A7056F1B9AB4AF7681767EC5 (void);
 extern void PetSelection_SelectPet_m74332CDDFEEB4A17FBD4376A13EE97C4E10241D3 (void);
+extern void PetSelection_InitiliazePreviewTexture_m2C374A19E5424E039A28BB1546F3E7B263D82410 (void);
 extern void PetSelection__ctor_m5600FF353E65BC091301F73B2139804117EC2578 (void);
 extern void U3CU3Ec__cctor_mDC04FF16C2C4B737E35C58135A6C0ADC89F28868 (void);
 extern void U3CU3Ec__ctor_mBF6110FE78C445BA66D909408513D742EC7DE7F8 (void);
@@ -17,6 +20,10 @@ extern void U3CU3Ec_U3CSelectPetU3Eb__1_0_m857813B1514ADBB1CF77FFB3C49D9E802EE2A
 extern void PetSelectionConfirmation_ConfirmSelection_m5B2664A08575545DF9DB410442CE9DF9AD2BA257 (void);
 extern void PetSelectionConfirmation_CancelSelection_m2E664BE6E729823BAE8F292ACF848E8D0B2E8563 (void);
 extern void PetSelectionConfirmation__ctor_m01F21DC48C00D616E33DCDECA9165835A205428D (void);
+extern void PettingHandler_Awake_m4C26C5D17AC3140E3801C369EEF64D59FBCC4F8F (void);
+extern void PettingHandler_Update_m9DDDE4822BD8292909DE852A11E36C8DAF4DFD34 (void);
+extern void PettingHandler_TryGetPressScreenPos_m6301F2702444B7FAA686FEB0DD1A57A1118CAA79 (void);
+extern void PettingHandler__ctor_mE48945A70F65F77A45BC0D5D342678B638C92CC2 (void);
 extern void SaveAndLoadHandler_get_SavePath_mE88980BB8EB5BEC7B34DEAA878016BED5B1F4E4A (void);
 extern void SaveAndLoadHandler_get_State_m9F633CDFED0CA834CDDC008380667967D102DB26 (void);
 extern void SaveAndLoadHandler_set_State_m4B72C10CA1A0F3B115C52CE5C216DB72450193BC (void);
@@ -31,11 +38,14 @@ extern void SubtleHorizontalMove_Update_m5E556021EBDAF3BB9A2E48B0ED68F2F7EB45A13
 extern void SubtleHorizontalMove__ctor_m9C78D7C82B0F3C54C89847BA888FEAB2F1BBB180 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
-static Il2CppMethodPointer s_methodPointers[24] = 
+static Il2CppMethodPointer s_methodPointers[31] = 
 {
 	InventorySlot__ctor_m81F300A17B54F5AA603F9EE51527593B8925A81A,
 	GameState__ctor_m136973224640261C767FADCA144A37EEF91CB53C,
+	InitializeAnimal_Start_mC1438CD2F4DD3230A8DB3505A1FED6DE8AE5B411,
+	InitializeAnimal__ctor_m52A87E7FAB3990D2A7056F1B9AB4AF7681767EC5,
 	PetSelection_SelectPet_m74332CDDFEEB4A17FBD4376A13EE97C4E10241D3,
+	PetSelection_InitiliazePreviewTexture_m2C374A19E5424E039A28BB1546F3E7B263D82410,
 	PetSelection__ctor_m5600FF353E65BC091301F73B2139804117EC2578,
 	U3CU3Ec__cctor_mDC04FF16C2C4B737E35C58135A6C0ADC89F28868,
 	U3CU3Ec__ctor_mBF6110FE78C445BA66D909408513D742EC7DE7F8,
@@ -43,6 +53,10 @@ static Il2CppMethodPointer s_methodPointers[24] =
 	PetSelectionConfirmation_ConfirmSelection_m5B2664A08575545DF9DB410442CE9DF9AD2BA257,
 	PetSelectionConfirmation_CancelSelection_m2E664BE6E729823BAE8F292ACF848E8D0B2E8563,
 	PetSelectionConfirmation__ctor_m01F21DC48C00D616E33DCDECA9165835A205428D,
+	PettingHandler_Awake_m4C26C5D17AC3140E3801C369EEF64D59FBCC4F8F,
+	PettingHandler_Update_m9DDDE4822BD8292909DE852A11E36C8DAF4DFD34,
+	PettingHandler_TryGetPressScreenPos_m6301F2702444B7FAA686FEB0DD1A57A1118CAA79,
+	PettingHandler__ctor_mE48945A70F65F77A45BC0D5D342678B638C92CC2,
 	SaveAndLoadHandler_get_SavePath_mE88980BB8EB5BEC7B34DEAA878016BED5B1F4E4A,
 	SaveAndLoadHandler_get_State_m9F633CDFED0CA834CDDC008380667967D102DB26,
 	SaveAndLoadHandler_set_State_m4B72C10CA1A0F3B115C52CE5C216DB72450193BC,
@@ -58,38 +72,45 @@ static Il2CppMethodPointer s_methodPointers[24] =
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
 };
-static const int32_t s_InvokerIndices[24] = 
+static const int32_t s_InvokerIndices[31] = 
 {
-	15309,
-	15309,
-	15309,
-	15309,
-	26879,
-	15309,
-	8085,
-	15309,
-	15309,
-	15309,
-	26779,
-	26779,
-	25579,
-	26879,
-	26879,
-	26879,
-	26879,
-	15309,
-	15309,
-	15309,
-	15309,
-	15309,
-	26905,
-	15309,
+	15312,
+	15312,
+	15312,
+	15312,
+	15312,
+	5711,
+	15312,
+	26884,
+	15312,
+	8087,
+	15312,
+	15312,
+	15312,
+	15312,
+	15312,
+	24827,
+	15312,
+	26784,
+	26784,
+	25584,
+	26884,
+	26884,
+	26884,
+	26884,
+	15312,
+	15312,
+	15312,
+	15312,
+	15312,
+	26910,
+	15312,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	24,
+	31,
 	s_methodPointers,
 	0,
 	NULL,

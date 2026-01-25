@@ -226,7 +226,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8989586286164213170, guid: 149293b982c457d48b1cf8b7ffab086a, type: 3}
       propertyPath: m_fontSize
-      value: 6.25
+      value: 14.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -469,7 +469,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.CanvasScaler
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -709,7 +709,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8989586286164213170, guid: 149293b982c457d48b1cf8b7ffab086a, type: 3}
       propertyPath: m_fontSize
-      value: 16.4
+      value: 37.35
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -902,7 +902,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8989586286164213170, guid: 149293b982c457d48b1cf8b7ffab086a, type: 3}
       propertyPath: m_fontSize
-      value: 17.2
+      value: 39.15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -925,6 +925,10 @@ PrefabInstance:
     - target: {fileID: 957900876839577390, guid: f41cc60ffab746c46b51f3708e2481f6, type: 3}
       propertyPath: m_Name
       value: Cat
+      objectReference: {fileID: 0}
+    - target: {fileID: 957900876839577390, guid: f41cc60ffab746c46b51f3708e2481f6, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7303417477245152232, guid: f41cc60ffab746c46b51f3708e2481f6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1040,7 +1044,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -10
   m_MaskInteraction: 0
   m_Sprite: {fileID: 496094012260603782, guid: 5e824fe5c15f45c488a79a2a65a4f03e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1061,8 +1065,8 @@ Transform:
   m_GameObject: {fileID: 1574645689}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 10}
-  m_LocalScale: {x: 0.7, y: 0.7, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.6, y: 0.7, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1078,6 +1082,10 @@ PrefabInstance:
     - target: {fileID: 957900876839577390, guid: 2b57f0bb5eb4a214b942aa7795b422c7, type: 3}
       propertyPath: m_Name
       value: Dog
+      objectReference: {fileID: 0}
+    - target: {fileID: 957900876839577390, guid: 2b57f0bb5eb4a214b942aa7795b422c7, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7303417477245152232, guid: 2b57f0bb5eb4a214b942aa7795b422c7, type: 3}
       propertyPath: m_LocalScale.x
@@ -1239,7 +1247,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8989586286164213170, guid: 149293b982c457d48b1cf8b7ffab086a, type: 3}
       propertyPath: m_fontSize
-      value: 8.8
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1289,8 +1297,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 0, y: 60}
-  m_SizeDelta: {x: -30, y: 80}
+  m_AnchoredPosition: {x: 0, y: 100}
+  m_SizeDelta: {x: -30, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1989067139
 MonoBehaviour:
@@ -1312,7 +1320,7 @@ MonoBehaviour:
   m_ChildAlignment: 4
   m_StartCorner: 0
   m_StartAxis: 0
-  m_CellSize: {x: 60, y: 60}
+  m_CellSize: {x: 150, y: 150}
   m_Spacing: {x: 1, y: 0}
   m_Constraint: 2
   m_ConstraintCount: 1
@@ -1410,7 +1418,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8989586286164213170, guid: 149293b982c457d48b1cf8b7ffab086a, type: 3}
       propertyPath: m_fontSize
-      value: 10.3
+      value: 23.4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
