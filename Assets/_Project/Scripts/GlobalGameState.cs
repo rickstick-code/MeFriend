@@ -15,11 +15,8 @@ public class GameState
 {
     public PetType SelectedPet = default;
 
-    public float Money = 0f;
-    public float Xp = 0f;
-
-    public float MaxHealth = 100f;
-    public float Health = 100f;
+    public float Money = 100f;
+    public float Xp = 10f;
 
     public float MaxEnergy = 100f;
     public float Energy = 100f;

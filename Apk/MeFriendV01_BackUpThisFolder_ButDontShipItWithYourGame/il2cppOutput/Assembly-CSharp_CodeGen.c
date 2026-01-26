@@ -31,14 +31,18 @@ extern void SaveAndLoadHandler_Save_m48E7F26FA32E8BD334CE71F7FEC871DEEE222F63 (v
 extern void SaveAndLoadHandler_LoadOrCreate_m2107966C1672E26BF6518E074FE1BEEA989CE644 (void);
 extern void SaveAndLoadHandler_DeleteSave_mF6644C315D6215361ED691A644A515A5CF4CC2B6 (void);
 extern void SaveAndLoadHandler__cctor_mCFBD1511450C79C2D7F5E5D364608AA19FAB3BD3 (void);
+extern void SetLevelBadge_Start_mF00F6534FA2F9C8B9C53836E19CD12D7E780A590 (void);
+extern void SetLevelBadge_Update_m4F69AFFB5DB05F7E160B35F54F433EA9EF305EAD (void);
+extern void SetLevelBadge__ctor_mD1F99F9C54D37262546DCD4D2B9687C025D40FF1 (void);
 extern void StartApplication_Awake_mEF9983821258638182829E5B0228674A7DBAC2B6 (void);
 extern void StartApplication__ctor_m9AA1920080D610F9BFFACAF3977159D22BB58682 (void);
 extern void SubtleHorizontalMove_Awake_m3AAFCA7AF9651E3CC457FE79857B2D8CC56A1D5C (void);
 extern void SubtleHorizontalMove_Update_m5E556021EBDAF3BB9A2E48B0ED68F2F7EB45A130 (void);
 extern void SubtleHorizontalMove__ctor_m9C78D7C82B0F3C54C89847BA888FEAB2F1BBB180 (void);
+extern void XpCalculator_GetLevelFromXp_mCD7BF5E109865AD4E5E749DA6D9670816F114088 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
-static Il2CppMethodPointer s_methodPointers[31] = 
+static Il2CppMethodPointer s_methodPointers[35] = 
 {
 	InventorySlot__ctor_m81F300A17B54F5AA603F9EE51527593B8925A81A,
 	GameState__ctor_m136973224640261C767FADCA144A37EEF91CB53C,
@@ -64,15 +68,19 @@ static Il2CppMethodPointer s_methodPointers[31] =
 	SaveAndLoadHandler_LoadOrCreate_m2107966C1672E26BF6518E074FE1BEEA989CE644,
 	SaveAndLoadHandler_DeleteSave_mF6644C315D6215361ED691A644A515A5CF4CC2B6,
 	SaveAndLoadHandler__cctor_mCFBD1511450C79C2D7F5E5D364608AA19FAB3BD3,
+	SetLevelBadge_Start_mF00F6534FA2F9C8B9C53836E19CD12D7E780A590,
+	SetLevelBadge_Update_m4F69AFFB5DB05F7E160B35F54F433EA9EF305EAD,
+	SetLevelBadge__ctor_mD1F99F9C54D37262546DCD4D2B9687C025D40FF1,
 	StartApplication_Awake_mEF9983821258638182829E5B0228674A7DBAC2B6,
 	StartApplication__ctor_m9AA1920080D610F9BFFACAF3977159D22BB58682,
 	SubtleHorizontalMove_Awake_m3AAFCA7AF9651E3CC457FE79857B2D8CC56A1D5C,
 	SubtleHorizontalMove_Update_m5E556021EBDAF3BB9A2E48B0ED68F2F7EB45A130,
 	SubtleHorizontalMove__ctor_m9C78D7C82B0F3C54C89847BA888FEAB2F1BBB180,
+	XpCalculator_GetLevelFromXp_mCD7BF5E109865AD4E5E749DA6D9670816F114088,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
 };
-static const int32_t s_InvokerIndices[31] = 
+static const int32_t s_InvokerIndices[35] = 
 {
 	15312,
 	15312,
@@ -103,6 +111,10 @@ static const int32_t s_InvokerIndices[31] =
 	15312,
 	15312,
 	15312,
+	15312,
+	15312,
+	15312,
+	25030,
 	26910,
 	15312,
 };
@@ -110,7 +122,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	31,
+	35,
 	s_methodPointers,
 	0,
 	NULL,
